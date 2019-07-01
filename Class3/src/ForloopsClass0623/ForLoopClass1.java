@@ -6,7 +6,7 @@ public class ForLoopClass1 {
 		
 /*
  * 		for loop using for the read and write the multiple elements  --
- * 
+ *    
  * 		nested for loop 
  * 
  * 		for each loop

@@ -16,7 +16,7 @@ public class ForLoopClass2Execise {
  *  sum all the number in the arraylist 
  * 		
  */
-		
+		   
 /*
  * 	Arraylist we are storing multile elements 
  * 		

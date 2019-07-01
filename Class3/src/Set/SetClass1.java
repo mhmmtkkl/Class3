@@ -19,7 +19,7 @@ public class SetClass1 {
  * 
  * 			Set is not storing duplicated data
  * 	
- * 			
+ * 			   
  * 			ArrayList allow multiple null values 		
  * 			
  * 			Set allow just one null value	
