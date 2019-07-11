@@ -10,8 +10,8 @@ public class ForLoopClass1Exercise {
 		ArrayList<String> States = new ArrayList<>();
 		
 		States.add("Alabama");   
-		States.add("Alaska");
-		States.add("Arizona");
+		States.add("Alaska");	
+		States.add("Arizona");	 
 		States.add("Arkansas");  
 		States.add("California");
 		States.add("Colorado");

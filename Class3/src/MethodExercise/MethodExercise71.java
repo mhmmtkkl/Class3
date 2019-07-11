@@ -1,24 +1,42 @@
 package MethodExercise;
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.*;
+
 
 public class MethodExercise71 {
 
 	
 /*
  * 
- * 	
+ * 	  
  * 
  * 
  * 
- * 
+ *  
  * 	
  */
 	
 	
 	
 	public static void main(String[] args) {
+		
+		
+		
+		
+	ArrayList<String> myArr = new ArrayList<>();
+		
+		myArr.add( "Pennsylvania"  );
+		myArr.add( "New Mexico"  );
+		myArr.add( "Mississippi"  );
+		myArr.add( "Colorado"  );
+		myArr.add( "Washington"  );
+		myArr.add( "Wyoming"  );
+		myArr.add( "Arizona"  );
+		myArr.add( "Maryland"  );
+		myArr.add( "Wisconsin"  );
+		myArr.add( "Maine"  );
+		myArr.add( "Istanbul"  );
 		
 		
 		String[] s1 = new String[] {"Alabama"
@@ -48,7 +66,7 @@ public class MethodExercise71 {
 				"Missouri",
 				"Montana",
 				"Nebraska",
-				"Nevada",
+				"Nevada", 	
 				"New Hampshire",
 				"New Jersey",
 				"New Mexico",
@@ -76,7 +94,7 @@ public class MethodExercise71 {
 	 
 		Collections.addAll(AllStates, s1);
 		
-		System.out.println(AllStates);
+		 
 		
 /*
  * 
@@ -92,8 +110,85 @@ public class MethodExercise71 {
  */
 		
 		
+	
+		firstArrayContainsSecondArray(myArr, AllStates);
+		
+		
+//		NOTE: break is stopping the for loop and continue is passing that logic
+//		for (int i = 0; i < 100; i++) {
+//			
+//			
+//			
+//			
+//			if(i==70) {
+//				
+//				continue;
+//			}
+//			
+//			System.out.println(i);
+//			
+//		}
+//		
+		
+		ArrayList<String> settingExpected = new ArrayList<>();
+		
+		settingExpected.add("Name");
+		settingExpected.add("LastName");
+		settingExpected.add("Address");
+		settingExpected.add("Manage Account");
+		 
+		ArrayList<String> settingActual = new ArrayList<>();
+		
+		settingActual.add("Name");
+		
+		firstArrayContainsSecondArray(settingExpected, settingActual);
+		
 		
 	}
+	
+	
+	public static void firstArrayContainsSecondArray(ArrayList<String> expected , ArrayList<String> actual) {
+		
+		boolean b1 =false;
+		
+		for (int i = 0; i < expected.size() ; i++) {
+  	
+			for (int j = 0; j < actual.size() ; j++) {
+ 	
+				
+				 if(expected.get(i).contains(actual.get(j))) {
+					 
+					 b1=true;
+					 
+					 break;
+				 
+				 } 
+				 
+				
+				 
+			}
+			 System.out.println(b1);
+		  
+		}
+		
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	  
  
 }
