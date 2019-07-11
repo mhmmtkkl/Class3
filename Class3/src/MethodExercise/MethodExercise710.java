@@ -18,7 +18,7 @@ public class MethodExercise710 {
 		System.out.println(rand2);
 		
 		System.out.println(rand3);
-
+    
 	
 	}
 	
