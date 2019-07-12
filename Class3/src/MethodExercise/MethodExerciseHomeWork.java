@@ -12,7 +12,9 @@ public class MethodExerciseHomeWork {
 /*
  * Create one arrraylist 
  * 
- * Create a method which is will take out the letters in the string 
+ * Create a method it will accept a arrayList 
+ * 
+ * in this method you should remove the letters and $ sign 
  * 
  * if value contains M multiply by 10000000
  * 
