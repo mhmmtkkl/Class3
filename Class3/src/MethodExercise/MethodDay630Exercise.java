@@ -65,20 +65,18 @@ public class MethodDay630Exercise {
 	
 	
 	
-//	Create 2 string array and contaisn each other 
+//	Create 2 sctring array and ontaisn each other 
 	
 //	ARRAYS SHOULD BE IN THE MAIN METHOD
 		
 //	ArrayList<String> Array1 = new ArrayList<>();
  
-	
 //	Array1.add("Korea");
 //	Array1.add("Mexico");
 //	Array1.add("USA");
 //	Array1.add("Japan");
 //	Array1.add("Canada");
 //	Array1.add("Russia");
-//	
 //	
 //	ArrayList<String> Array2 = new ArrayList<>();
 //	
