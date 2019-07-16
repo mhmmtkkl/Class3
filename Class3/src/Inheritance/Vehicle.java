@@ -7,8 +7,7 @@ public class Vehicle {
 	int speed;
 	
 	String Model;
-	
-	 String sssl;
+ 
 	/*this keyword we are initializing in the one class 
 	*
 	*
