@@ -8,6 +8,7 @@ public class Vehicle {
 	
 	String Model;
 	
+	 String sssl;
 	/*this keyword we are initializing in the one class 
 	*
 	*
@@ -43,6 +44,6 @@ public class Vehicle {
 		
 		return ("Car has = " + wheelCount + " wheel ,  Max speed is = "  + speed + " Model of the car is = " + Model );
 	}
-	
-	
+	       
+	    
 }
