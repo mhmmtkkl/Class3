@@ -11,13 +11,7 @@ public class Car extends Vehicle {
 		this.door = door;
 		
 	}
-
-	
-	public void reverse(int reverseSpeed) {
-		
-		super.speed = reverseSpeed;
-		
-	}
+ 
 	
 	public String toString() {
 		
