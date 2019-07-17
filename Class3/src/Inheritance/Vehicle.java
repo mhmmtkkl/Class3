@@ -14,7 +14,11 @@ public class Vehicle {
 	*
 	*super keyword we are initializing in the parent and child class 
 	*
-	*
+	*		Note: The biggest advantage of Inheritance
+	* is that the code that is already present in base class need not be rewritten in the child class.
+	* 
+	* inheritance not let yo extend myultiple classes
+	* 
 	*/
 	
 	public Vehicle(int wheelCount,int speed,String Model) {
