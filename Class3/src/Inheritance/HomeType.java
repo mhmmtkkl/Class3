@@ -31,9 +31,7 @@ public class HomeType {
 		this.window = window;
 		
 		this.room = room;
-		
-		
-		
+		 
 	}
 	
 	
