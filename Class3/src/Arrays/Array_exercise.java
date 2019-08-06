@@ -30,7 +30,7 @@ public class Array_exercise {
 //		Will have more exercise when we learned the for loop 
 		
 		
-		
+		double d2=1
 		
 		
 		
